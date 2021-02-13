@@ -1,0 +1,8 @@
+;インクリメンタルサーチ
+(require "isearch")
+;ウィンドウ幅で折り返す
+(set-buffer-fold-type-window)
+;grepダイアログのショートカット(ctrl+g)
+(global-set-key #\C-g 'grep-dialog)
+;window幅で折り返しショートカット
+(global-set-key #\C-m 'set-buffer-fold-type-window)
