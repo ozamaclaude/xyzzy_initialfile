@@ -5,4 +5,7 @@
 ;grepダイアログのショートカット(ctrl+g)
 (global-set-key #\C-g 'grep-dialog)
 ;window幅で折り返しショートカット
-(global-set-key #\C-m 'set-buffer-fold-type-window)
+(global-set-key #\C-j 'set-buffer-fold-type-window)
+
+;全選択
+(global-set-key #\F12 'selection-whole-buffer)
